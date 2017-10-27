@@ -23,9 +23,9 @@ object WechatMP {
 
   def main(args:Array[String]): Unit ={
     // demo
-    val input:APIGatewayInput = _
-    val op = getBasicInput(input).getOutput.toText
-    op.content = "this is a demo"
-    println(op.toString)
+//    val input:APIGatewayInput = _
+//    val op = getBasicInput(input).getOutput.toText
+//    op.content = "this is a demo"
+//    println(op.toString)
   }
 }
